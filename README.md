@@ -6,10 +6,10 @@
 
 ### 目录
 
-- js
-- css
-- node
-- http
-- 浏览器
-
-* 服务端
+- [js](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/js)
+- [css](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/css)
+- [node](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/node)
+- [http](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/http)
+- [浏览器](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/浏览器)
+- [服务端](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/服务端)
+- [PC 使用技巧](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/使用技巧)
