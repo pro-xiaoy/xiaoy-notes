@@ -13,3 +13,15 @@
 - [浏览器](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/浏览器)
 - [服务端](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/服务端)
 - [PC 使用技巧](https://github.com/pro-xiaoy/xiaoy-notes/tree/master/使用技巧)
+
+### JS
+
+#### 系列
+
+##### JS 专精系列---一些方法的手写
+
+- eventhub
+- deepclone
+- bind
+- promise
+- async
