@@ -35,5 +35,6 @@ let a2 = JSON.parse(JSON.stringify(a1));
 - RegExp
 - function
 - date
+- 环状结构（自己指向自己）主要是 cache 部分
 
-思路就是碰到引用类型递归一直到基础数据类型。
+  思路就是碰到引用类型递归一直到基础数据类型。
