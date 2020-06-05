@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+
+  function bind2(...args) {
+    let fn = this
+    return function() {
+      console.log('fn++', fn, fn(), fn.call(...args));
+      
+      fn.call(...args)
+    }
+  }
+  Function.prototype.bind2 = bind2
+
+  function name() {
+    console.log(this, '222')
+    return this
+  }
+  let name2 = name.bind2({name: 'fang'})
+  console.log(name2, name2(), '11111111')
+  console.log('2222222229++')
+  
+
+
+</script>
+</html>
